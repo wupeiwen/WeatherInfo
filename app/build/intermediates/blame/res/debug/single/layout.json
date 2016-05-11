@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "E:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_city_list.xml",
+        "source": "E:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\item_city_list.xml"
+    },
+    {
+        "merged": "E:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_city.xml",
+        "source": "E:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\activity_city.xml"
+    },
+    {
+        "merged": "E:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_weather.xml",
+        "source": "E:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\activity_weather.xml"
+    }
+]

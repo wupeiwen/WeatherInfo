@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
+        "source": "E:\\StudioProjects\\Weather\\app\\src\\main\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "E:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wireframe_dark.xml",
+        "source": "E:\\StudioProjects\\Weather\\app\\src\\main\\res\\drawable\\wireframe_dark.xml"
+    },
+    {
+        "merged": "E:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wireframe_light.xml",
+        "source": "E:\\StudioProjects\\Weather\\app\\src\\main\\res\\drawable\\wireframe_light.xml"
+    }
+]

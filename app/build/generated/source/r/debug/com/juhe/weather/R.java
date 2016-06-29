@@ -8,13 +8,171 @@
 package com.juhe.weather;
 
 public final class R {
+    public static final class anim {
+        public static final int fade_in=0x7f040000;
+        public static final int push_down_in=0x7f040001;
+        public static final int push_down_out=0x7f040002;
+        public static final int push_up_in=0x7f040003;
+        public static final int push_up_out=0x7f040004;
+        public static final int slide_bottom_in=0x7f040005;
+        public static final int slide_left_in=0x7f040006;
+        public static final int slide_left_out=0x7f040007;
+        public static final int slide_right_in=0x7f040008;
+        public static final int slide_right_out=0x7f040009;
+        public static final int slide_top_out=0x7f04000a;
+    }
     public static final class attr {
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardBackgroundColor=0x7f010000;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardCornerRadius=0x7f010001;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardElevation=0x7f010002;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardMaxElevation=0x7f010003;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardPreventCornerOverlap=0x7f010005;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardUseCompatPadding=0x7f010004;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPadding=0x7f010006;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingBottom=0x7f01000a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingLeft=0x7f010007;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingRight=0x7f010008;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingTop=0x7f010009;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int filterAlphaVector=0x7f010011;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int filterBlueVector=0x7f010010;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int filterBrightnessVector=0x7f010012;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int filterGreenVector=0x7f01000f;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int filterRedVector=0x7f01000e;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int ptrAdapterViewBackground=0x7f01000e;
+        public static final int ptrAdapterViewBackground=0x7f010021;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -25,48 +183,48 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>flip</code></td><td>0x1</td><td></td></tr>
 </table>
          */
-        public static final int ptrAnimationStyle=0x7f01000a;
+        public static final int ptrAnimationStyle=0x7f01001d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrDrawable=0x7f010005;
+        public static final int ptrDrawable=0x7f010018;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrDrawableBottom=0x7f010010;
+        public static final int ptrDrawableBottom=0x7f010023;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrDrawableEnd=0x7f010007;
+        public static final int ptrDrawableEnd=0x7f01001a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrDrawableStart=0x7f010006;
+        public static final int ptrDrawableStart=0x7f010019;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrDrawableTop=0x7f01000f;
+        public static final int ptrDrawableTop=0x7f010022;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int ptrHeaderBackground=0x7f010001;
+        public static final int ptrHeaderBackground=0x7f010014;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrHeaderTextAppearance=0x7f010009;
+        public static final int ptrHeaderTextAppearance=0x7f01001c;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int ptrHeaderTextColor=0x7f010002;
+        public static final int ptrHeaderTextColor=0x7f010015;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int ptrListViewExtrasEnabled=0x7f01000c;
+        public static final int ptrListViewExtrasEnabled=0x7f01001f;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -82,212 +240,411 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pullUpFromBottom</code></td><td>0x2</td><td></td></tr>
 </table>
          */
-        public static final int ptrMode=0x7f010003;
+        public static final int ptrMode=0x7f010016;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int ptrOverScroll=0x7f010008;
+        public static final int ptrOverScroll=0x7f01001b;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int ptrRefreshableViewBackground=0x7f010000;
+        public static final int ptrRefreshableViewBackground=0x7f010013;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int ptrRotateDrawableWhilePulling=0x7f01000d;
+        public static final int ptrRotateDrawableWhilePulling=0x7f010020;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int ptrScrollingWhileRefreshingEnabled=0x7f01000b;
+        public static final int ptrScrollingWhileRefreshingEnabled=0x7f01001e;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int ptrShowIndicator=0x7f010004;
+        public static final int ptrShowIndicator=0x7f010017;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rfab_color_normal=0x7f010026;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rfab_color_pressed=0x7f010027;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int rfab_drawable=0x7f010025;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rfab_identification_code=0x7f01002c;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rfab_shadow_color=0x7f010029;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rfab_shadow_dx=0x7f01002a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rfab_shadow_dy=0x7f01002b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rfab_shadow_radius=0x7f010028;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>mini</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int rfab_size=0x7f010024;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rfal_frame_alpha=0x7f01002e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rfal_frame_color=0x7f01002d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadowEndColor=0x7f01000c;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadowSize=0x7f01000d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadowStartColor=0x7f01000b;
     }
     public static final class color {
-        public static final int blue=0x7f050000;
-        public static final int dark_grey=0x7f050001;
-        public static final int frame_color=0x7f050002;
-        public static final int light_grey=0x7f050003;
-        public static final int text_color=0x7f050004;
+        public static final int ab__gray_light=0x7f070000;
+        public static final int blue=0x7f070001;
+        public static final int cardview_dark_background=0x7f070002;
+        public static final int cardview_light_background=0x7f070003;
+        public static final int cardview_shadow_end_color=0x7f070004;
+        public static final int cardview_shadow_start_color=0x7f070005;
+        public static final int dark_grey=0x7f070006;
+        public static final int frame_color=0x7f070007;
+        public static final int green=0x7f070008;
+        public static final int green_choose=0x7f070009;
+        public static final int light_grey=0x7f07000a;
+        public static final int rfab__color_background_normal=0x7f07000b;
+        public static final int rfab__color_background_pressed=0x7f07000c;
+        public static final int rfab__color_frame=0x7f07000d;
+        public static final int rfab__color_shadow=0x7f07000e;
+        public static final int rfab__color_text_label_item=0x7f07000f;
+        public static final int text_color=0x7f070010;
     }
     public static final class dimen {
-        public static final int header_footer_left_right_padding=0x7f060000;
-        public static final int header_footer_top_bottom_padding=0x7f060001;
-        public static final int indicator_corner_radius=0x7f060002;
-        public static final int indicator_internal_padding=0x7f060003;
-        public static final int indicator_right_padding=0x7f060004;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
+        public static final int cardview_compat_inset_shadow=0x7f060002;
+        public static final int cardview_default_elevation=0x7f060003;
+        public static final int cardview_default_radius=0x7f060004;
+        public static final int cardview_shadow_size=0x7f060005;
+        public static final int header_footer_left_right_padding=0x7f060006;
+        public static final int header_footer_top_bottom_padding=0x7f060007;
+        public static final int indicator_corner_radius=0x7f060008;
+        public static final int indicator_internal_padding=0x7f060009;
+        public static final int indicator_right_padding=0x7f06000a;
     }
     public static final class drawable {
-        public static final int arrow=0x7f020000;
-        public static final int back=0x7f020001;
-        public static final int d00=0x7f020002;
-        public static final int d01=0x7f020003;
-        public static final int d02=0x7f020004;
-        public static final int d03=0x7f020005;
-        public static final int d04=0x7f020006;
-        public static final int d05=0x7f020007;
-        public static final int d06=0x7f020008;
-        public static final int d07=0x7f020009;
-        public static final int d08=0x7f02000a;
-        public static final int d09=0x7f02000b;
-        public static final int d10=0x7f02000c;
-        public static final int d11=0x7f02000d;
-        public static final int d12=0x7f02000e;
-        public static final int d13=0x7f02000f;
-        public static final int d14=0x7f020010;
-        public static final int d15=0x7f020011;
-        public static final int d16=0x7f020012;
-        public static final int d17=0x7f020013;
-        public static final int d18=0x7f020014;
-        public static final int d19=0x7f020015;
-        public static final int d20=0x7f020016;
-        public static final int d21=0x7f020017;
-        public static final int d22=0x7f020018;
-        public static final int d23=0x7f020019;
-        public static final int d24=0x7f02001a;
-        public static final int d25=0x7f02001b;
-        public static final int d26=0x7f02001c;
-        public static final int d27=0x7f02001d;
-        public static final int d28=0x7f02001e;
-        public static final int d29=0x7f02001f;
-        public static final int d30=0x7f020020;
-        public static final int d31=0x7f020021;
-        public static final int d53=0x7f020022;
-        public static final int default_ptr_flip=0x7f020023;
-        public static final int ic_launcher=0x7f020024;
-        public static final int loading=0x7f020025;
-        public static final int n00=0x7f020026;
-        public static final int n01=0x7f020027;
-        public static final int n02=0x7f020028;
-        public static final int n03=0x7f020029;
-        public static final int n04=0x7f02002a;
-        public static final int n05=0x7f02002b;
-        public static final int n06=0x7f02002c;
-        public static final int n07=0x7f02002d;
-        public static final int n08=0x7f02002e;
-        public static final int n09=0x7f02002f;
-        public static final int n10=0x7f020030;
-        public static final int n11=0x7f020031;
-        public static final int n12=0x7f020032;
-        public static final int n13=0x7f020033;
-        public static final int n14=0x7f020034;
-        public static final int n15=0x7f020035;
-        public static final int n16=0x7f020036;
-        public static final int n17=0x7f020037;
-        public static final int n18=0x7f020038;
-        public static final int n19=0x7f020039;
-        public static final int n20=0x7f02003a;
-        public static final int n21=0x7f02003b;
-        public static final int n22=0x7f02003c;
-        public static final int n23=0x7f02003d;
-        public static final int n24=0x7f02003e;
-        public static final int n25=0x7f02003f;
-        public static final int n26=0x7f020040;
-        public static final int n27=0x7f020041;
-        public static final int n28=0x7f020042;
-        public static final int n29=0x7f020043;
-        public static final int n30=0x7f020044;
-        public static final int n31=0x7f020045;
-        public static final int n53=0x7f020046;
-        public static final int progressbar=0x7f020047;
-        public static final int wireframe_dark=0x7f020048;
-        public static final int wireframe_light=0x7f020049;
+        public static final int ab__shape_corners_black=0x7f020000;
+        public static final int about=0x7f020001;
+        public static final int arrow=0x7f020002;
+        public static final int back=0x7f020003;
+        public static final int d00=0x7f020004;
+        public static final int d01=0x7f020005;
+        public static final int d02=0x7f020006;
+        public static final int d03=0x7f020007;
+        public static final int d04=0x7f020008;
+        public static final int d05=0x7f020009;
+        public static final int d06=0x7f02000a;
+        public static final int d07=0x7f02000b;
+        public static final int d08=0x7f02000c;
+        public static final int d09=0x7f02000d;
+        public static final int d10=0x7f02000e;
+        public static final int d11=0x7f02000f;
+        public static final int d12=0x7f020010;
+        public static final int d13=0x7f020011;
+        public static final int d14=0x7f020012;
+        public static final int d15=0x7f020013;
+        public static final int d16=0x7f020014;
+        public static final int d17=0x7f020015;
+        public static final int d18=0x7f020016;
+        public static final int d19=0x7f020017;
+        public static final int d20=0x7f020018;
+        public static final int d21=0x7f020019;
+        public static final int d22=0x7f02001a;
+        public static final int d23=0x7f02001b;
+        public static final int d24=0x7f02001c;
+        public static final int d25=0x7f02001d;
+        public static final int d26=0x7f02001e;
+        public static final int d27=0x7f02001f;
+        public static final int d28=0x7f020020;
+        public static final int d29=0x7f020021;
+        public static final int d30=0x7f020022;
+        public static final int d31=0x7f020023;
+        public static final int d53=0x7f020024;
+        public static final int default_ptr_flip=0x7f020025;
+        public static final int ic_launcher=0x7f020026;
+        public static final int loading=0x7f020027;
+        public static final int location=0x7f020028;
+        public static final int n00=0x7f020029;
+        public static final int n01=0x7f02002a;
+        public static final int n02=0x7f02002b;
+        public static final int n03=0x7f02002c;
+        public static final int n04=0x7f02002d;
+        public static final int n05=0x7f02002e;
+        public static final int n06=0x7f02002f;
+        public static final int n07=0x7f020030;
+        public static final int n08=0x7f020031;
+        public static final int n09=0x7f020032;
+        public static final int n10=0x7f020033;
+        public static final int n11=0x7f020034;
+        public static final int n12=0x7f020035;
+        public static final int n13=0x7f020036;
+        public static final int n14=0x7f020037;
+        public static final int n15=0x7f020038;
+        public static final int n16=0x7f020039;
+        public static final int n17=0x7f02003a;
+        public static final int n18=0x7f02003b;
+        public static final int n19=0x7f02003c;
+        public static final int n20=0x7f02003d;
+        public static final int n21=0x7f02003e;
+        public static final int n22=0x7f02003f;
+        public static final int n23=0x7f020040;
+        public static final int n24=0x7f020041;
+        public static final int n25=0x7f020042;
+        public static final int n26=0x7f020043;
+        public static final int n27=0x7f020044;
+        public static final int n28=0x7f020045;
+        public static final int n29=0x7f020046;
+        public static final int n30=0x7f020047;
+        public static final int n31=0x7f020048;
+        public static final int n53=0x7f020049;
+        public static final int progressbar=0x7f02004a;
+        public static final int rfab__drawable_rfab_default=0x7f02004b;
+        public static final int rfab__shape_corners_background_label_shadow_normal=0x7f02004c;
+        public static final int rfab__shape_corners_background_label_shadow_pressed=0x7f02004d;
+        public static final int rfab__shape_corners_background_label_shadow_selector=0x7f02004e;
+        public static final int search=0x7f02004f;
+        public static final int selector_bg_sheet_corner_all=0x7f020050;
+        public static final int selector_bg_sheet_item=0x7f020051;
+        public static final int shape_corners_gray_corner_all=0x7f020052;
+        public static final int shape_corners_white_corner_all=0x7f020053;
+        public static final int shape_corners_white_corner_top_lr=0x7f020054;
+        public static final int wireframe_dark=0x7f020055;
+        public static final int wireframe_light=0x7f020056;
     }
     public static final class id {
-        public static final int both=0x7f070001;
-        public static final int disabled=0x7f070002;
-        public static final int fl_inner=0x7f070039;
-        public static final int flip=0x7f070008;
-        public static final int iv_back=0x7f07000a;
-        public static final int iv_fourthday_weather=0x7f070031;
-        public static final int iv_next_fifteen=0x7f07001f;
-        public static final int iv_next_nine=0x7f07001d;
-        public static final int iv_next_six=0x7f07001c;
-        public static final int iv_next_three=0x7f07001b;
-        public static final int iv_next_twelve=0x7f07001e;
-        public static final int iv_now_weather=0x7f070010;
-        public static final int iv_thirdday_weather=0x7f07002d;
-        public static final int iv_today_weather=0x7f070025;
-        public static final int iv_tommorrow_weather=0x7f070029;
-        public static final int lv_city=0x7f07000b;
-        public static final int manualOnly=0x7f070003;
-        public static final int pullDownFromTop=0x7f070004;
-        public static final int pullFromEnd=0x7f070005;
-        public static final int pullFromStart=0x7f070006;
-        public static final int pullUpFromBottom=0x7f070007;
-        public static final int pull_refresh_scrollview=0x7f07000c;
-        public static final int pull_to_refresh_progress=0x7f07003a;
-        public static final int pull_to_refresh_text=0x7f07003b;
-        public static final int rl_city=0x7f07000d;
-        public static final int rotate=0x7f070009;
-        public static final int scrollview=0x7f070000;
-        public static final int tv_aqi=0x7f070014;
-        public static final int tv_city=0x7f07000e;
-        public static final int tv_dressing_index=0x7f070038;
-        public static final int tv_felt_air_temp=0x7f070034;
-        public static final int tv_fourthday=0x7f070030;
-        public static final int tv_fourthday_temp_a=0x7f070032;
-        public static final int tv_fourthday_temp_b=0x7f070033;
-        public static final int tv_humidity=0x7f070035;
-        public static final int tv_next_fifteen=0x7f07001a;
-        public static final int tv_next_fifteen_temp=0x7f070024;
-        public static final int tv_next_nine=0x7f070018;
-        public static final int tv_next_nine_temp=0x7f070022;
-        public static final int tv_next_six=0x7f070017;
-        public static final int tv_next_six_temp=0x7f070021;
-        public static final int tv_next_three=0x7f070016;
-        public static final int tv_next_three_temp=0x7f070020;
-        public static final int tv_next_twelve=0x7f070019;
-        public static final int tv_next_twelve_temp=0x7f070023;
-        public static final int tv_now_temp=0x7f070013;
-        public static final int tv_now_weather=0x7f070011;
-        public static final int tv_quality=0x7f070015;
-        public static final int tv_release=0x7f07000f;
-        public static final int tv_thirdday=0x7f07002c;
-        public static final int tv_thirdday_temp_a=0x7f07002e;
-        public static final int tv_thirdday_temp_b=0x7f07002f;
-        public static final int tv_today_temp=0x7f070012;
-        public static final int tv_today_temp_a=0x7f070026;
-        public static final int tv_today_temp_b=0x7f070027;
-        public static final int tv_tommorrow=0x7f070028;
-        public static final int tv_tommorrow_temp_a=0x7f07002a;
-        public static final int tv_tommorrow_temp_b=0x7f07002b;
-        public static final int tv_uv_index=0x7f070037;
-        public static final int tv_wind=0x7f070036;
+        public static final int ab__id_adapter_child_position=0x7f080000;
+        public static final int ab__id_adapter_group_position=0x7f080001;
+        public static final int ab__id_adapter_item_position=0x7f080002;
+        public static final int ab__id_adapter_item_type_render=0x7f080003;
+        public static final int ab_drop_menu_item_title=0x7f080015;
+        public static final int ab_drop_menu_lv=0x7f080014;
+        public static final int ab_horizontial_edit_menu_items_view=0x7f080016;
+        public static final int ab_sheet_cancel_tv=0x7f080019;
+        public static final int ab_sheet_item_title_tv=0x7f08001a;
+        public static final int ab_sheet_lv=0x7f080018;
+        public static final int ab_sheet_title_tv=0x7f080017;
+        public static final int activity_main_rfab=0x7f080021;
+        public static final int activity_main_rfal=0x7f080020;
+        public static final int both=0x7f080009;
+        public static final int disabled=0x7f08000a;
+        public static final int fl_inner=0x7f080052;
+        public static final int fl_prompt=0x7f080023;
+        public static final int flip=0x7f080010;
+        public static final int ids_adapter_on_adapter_click_listener=0x7f080004;
+        public static final int iv_back=0x7f08001e;
+        public static final int iv_fourthday_weather=0x7f080049;
+        public static final int iv_github_img=0x7f08001b;
+        public static final int iv_next_fifteen=0x7f080037;
+        public static final int iv_next_nine=0x7f080035;
+        public static final int iv_next_six=0x7f080034;
+        public static final int iv_next_three=0x7f080033;
+        public static final int iv_next_twelve=0x7f080036;
+        public static final int iv_now_weather=0x7f080028;
+        public static final int iv_thirdday_weather=0x7f080045;
+        public static final int iv_today_weather=0x7f08003d;
+        public static final int iv_tommorrow_weather=0x7f080041;
+        public static final int lv_city=0x7f08001f;
+        public static final int lv_promit=0x7f080059;
+        public static final int manualOnly=0x7f08000b;
+        public static final int mini=0x7f080012;
+        public static final int normal=0x7f080013;
+        public static final int pullDownFromTop=0x7f08000c;
+        public static final int pullFromEnd=0x7f08000d;
+        public static final int pullFromStart=0x7f08000e;
+        public static final int pullUpFromBottom=0x7f08000f;
+        public static final int pull_refresh_scrollview=0x7f080024;
+        public static final int pull_to_refresh_progress=0x7f080053;
+        public static final int pull_to_refresh_text=0x7f080054;
+        public static final int rfab__content_label_list_icon_iv=0x7f080057;
+        public static final int rfab__content_label_list_label_tv=0x7f080056;
+        public static final int rfab__content_label_list_root_view=0x7f080055;
+        public static final int rfab__id_content_label_list_item_position=0x7f080005;
+        public static final int rfab_content_text_tv=0x7f080058;
+        public static final int rl=0x7f08001d;
+        public static final int rl_city=0x7f080025;
+        public static final int rotate=0x7f080011;
+        public static final int scrollview=0x7f080006;
+        public static final int sv_city=0x7f080022;
+        public static final int tv_address=0x7f08001c;
+        public static final int tv_aqi=0x7f08002c;
+        public static final int tv_city=0x7f080026;
+        public static final int tv_cityList=0x7f080051;
+        public static final int tv_dressing_index=0x7f080050;
+        public static final int tv_felt_air_temp=0x7f08004c;
+        public static final int tv_fourthday=0x7f080048;
+        public static final int tv_fourthday_temp_a=0x7f08004a;
+        public static final int tv_fourthday_temp_b=0x7f08004b;
+        public static final int tv_humidity=0x7f08004d;
+        public static final int tv_next_fifteen=0x7f080032;
+        public static final int tv_next_fifteen_temp=0x7f08003c;
+        public static final int tv_next_nine=0x7f080030;
+        public static final int tv_next_nine_temp=0x7f08003a;
+        public static final int tv_next_six=0x7f08002f;
+        public static final int tv_next_six_temp=0x7f080039;
+        public static final int tv_next_three=0x7f08002e;
+        public static final int tv_next_three_temp=0x7f080038;
+        public static final int tv_next_twelve=0x7f080031;
+        public static final int tv_next_twelve_temp=0x7f08003b;
+        public static final int tv_now_temp=0x7f08002b;
+        public static final int tv_now_weather=0x7f080029;
+        public static final int tv_quality=0x7f08002d;
+        public static final int tv_release=0x7f080027;
+        public static final int tv_thirdday=0x7f080044;
+        public static final int tv_thirdday_temp_a=0x7f080046;
+        public static final int tv_thirdday_temp_b=0x7f080047;
+        public static final int tv_today_temp=0x7f08002a;
+        public static final int tv_today_temp_a=0x7f08003e;
+        public static final int tv_today_temp_b=0x7f08003f;
+        public static final int tv_tommorrow=0x7f080040;
+        public static final int tv_tommorrow_temp_a=0x7f080042;
+        public static final int tv_tommorrow_temp_b=0x7f080043;
+        public static final int tv_uv_index=0x7f08004f;
+        public static final int tv_wind=0x7f08004e;
+        public static final int view_height=0x7f080007;
+        public static final int view_width=0x7f080008;
     }
     public static final class layout {
-        public static final int activity_city=0x7f030000;
-        public static final int activity_weather=0x7f030001;
-        public static final int item_city_list=0x7f030002;
-        public static final int pull_to_refresh_header_vertical=0x7f030003;
+        public static final int ab_drop_menu=0x7f030000;
+        public static final int ab_drop_menu_item=0x7f030001;
+        public static final int ab_horizontial_edit_menu=0x7f030002;
+        public static final int ab_sheet=0x7f030003;
+        public static final int ab_sheet_item=0x7f030004;
+        public static final int about_author=0x7f030005;
+        public static final int activity_city=0x7f030006;
+        public static final int activity_search=0x7f030007;
+        public static final int activity_weather=0x7f030008;
+        public static final int citylist_search=0x7f030009;
+        public static final int item_city_list=0x7f03000a;
+        public static final int pull_to_refresh_header_vertical=0x7f03000b;
+        public static final int rfab__content_label_list_item=0x7f03000c;
+        public static final int rfab__content_text=0x7f03000d;
+        public static final int search_fragment=0x7f03000e;
     }
     public static final class string {
-        public static final int app_name=0x7f080000;
-        public static final int default_text=0x7f080001;
-        public static final int dressing_index=0x7f080002;
-        public static final int felt_air_temp=0x7f080003;
-        public static final int filler_text=0x7f080004;
-        public static final int forecast=0x7f080005;
-        public static final int humidity=0x7f080006;
-        public static final int information=0x7f080007;
-        public static final int pm=0x7f080008;
-        public static final int pull_to_refresh_from_bottom_pull_label=0x7f080009;
-        public static final int pull_to_refresh_from_bottom_refreshing_label=0x7f08000a;
-        public static final int pull_to_refresh_from_bottom_release_label=0x7f08000b;
-        public static final int pull_to_refresh_pull_label=0x7f08000c;
-        public static final int pull_to_refresh_refreshing_label=0x7f08000d;
-        public static final int pull_to_refresh_release_label=0x7f08000e;
-        public static final int title_city=0x7f08000f;
-        public static final int today=0x7f080010;
-        public static final int uv_index=0x7f080011;
-        public static final int wind=0x7f080012;
+        public static final int app_name=0x7f090000;
+        public static final int default_text=0x7f090001;
+        public static final int dressing_index=0x7f090002;
+        public static final int felt_air_temp=0x7f090003;
+        public static final int filler_text=0x7f090004;
+        public static final int forecast=0x7f090005;
+        public static final int humidity=0x7f090006;
+        public static final int information=0x7f090007;
+        public static final int pm=0x7f090008;
+        public static final int pull_to_refresh_from_bottom_pull_label=0x7f090009;
+        public static final int pull_to_refresh_from_bottom_refreshing_label=0x7f09000a;
+        public static final int pull_to_refresh_from_bottom_release_label=0x7f09000b;
+        public static final int pull_to_refresh_pull_label=0x7f09000c;
+        public static final int pull_to_refresh_refreshing_label=0x7f09000d;
+        public static final int pull_to_refresh_release_label=0x7f09000e;
+        public static final int rfab_rfal__float_convert_color_alpha=0x7f09000f;
+        public static final int tag_fragment_tab_click_only=0x7f090010;
+        public static final int title_city=0x7f090011;
+        public static final int today=0x7f090012;
+        public static final int uv_index=0x7f090013;
+        public static final int wind=0x7f090014;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
@@ -298,14 +655,376 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f040000;
+        public static final int AppBaseTheme=0x7f050000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f040001;
-        public static final int TextViewStyle=0x7f040002;
-        public static final int ViewStyle=0x7f040003;
+        public static final int AppTheme=0x7f050001;
+        public static final int CardView=0x7f050002;
+        public static final int CardView_Dark=0x7f050003;
+        public static final int CardView_Light=0x7f050004;
+        /** 背景是否模糊
+         */
+        public static final int LoadingDialogStyle=0x7f050005;
+        public static final int TextViewStyle=0x7f050006;
+        public static final int ViewStyle=0x7f050007;
+        public static final int animDialogPushDown=0x7f050008;
+        public static final int animDialogPushUp=0x7f050009;
+        /** 背景是否模糊
+         */
+        public static final int customDialogStyle=0x7f05000a;
     }
     public static final class styleable {
+        /** Attributes that can be used with a CardView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor com.juhe.weather:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius com.juhe.weather:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation com.juhe.weather:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation com.juhe.weather:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.juhe.weather:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding com.juhe.weather:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding com.juhe.weather:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom com.juhe.weather:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft com.juhe.weather:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight com.juhe.weather:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop com.juhe.weather:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_shadowEndColor com.juhe.weather:shadowEndColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_shadowSize com.juhe.weather:shadowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_shadowStartColor com.juhe.weather:shadowStartColor}</code></td><td></td></tr>
+           </table>
+           @see #CardView_cardBackgroundColor
+           @see #CardView_cardCornerRadius
+           @see #CardView_cardElevation
+           @see #CardView_cardMaxElevation
+           @see #CardView_cardPreventCornerOverlap
+           @see #CardView_cardUseCompatPadding
+           @see #CardView_contentPadding
+           @see #CardView_contentPaddingBottom
+           @see #CardView_contentPaddingLeft
+           @see #CardView_contentPaddingRight
+           @see #CardView_contentPaddingTop
+           @see #CardView_shadowEndColor
+           @see #CardView_shadowSize
+           @see #CardView_shadowStartColor
+         */
+        public static final int[] CardView = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c, 0x7f01000d
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#cardBackgroundColor}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:cardBackgroundColor
+        */
+        public static final int CardView_cardBackgroundColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#cardCornerRadius}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:cardCornerRadius
+        */
+        public static final int CardView_cardCornerRadius = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#cardElevation}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:cardElevation
+        */
+        public static final int CardView_cardElevation = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#cardMaxElevation}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:cardMaxElevation
+        */
+        public static final int CardView_cardMaxElevation = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#cardPreventCornerOverlap}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:cardPreventCornerOverlap
+        */
+        public static final int CardView_cardPreventCornerOverlap = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#cardUseCompatPadding}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:cardUseCompatPadding
+        */
+        public static final int CardView_cardUseCompatPadding = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#contentPadding}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:contentPadding
+        */
+        public static final int CardView_contentPadding = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#contentPaddingBottom}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:contentPaddingBottom
+        */
+        public static final int CardView_contentPaddingBottom = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#contentPaddingLeft}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:contentPaddingLeft
+        */
+        public static final int CardView_contentPaddingLeft = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#contentPaddingRight}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:contentPaddingRight
+        */
+        public static final int CardView_contentPaddingRight = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#contentPaddingTop}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:contentPaddingTop
+        */
+        public static final int CardView_contentPaddingTop = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#shadowEndColor}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:shadowEndColor
+        */
+        public static final int CardView_shadowEndColor = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#shadowSize}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:shadowSize
+        */
+        public static final int CardView_shadowSize = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#shadowStartColor}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:shadowStartColor
+        */
+        public static final int CardView_shadowStartColor = 11;
+        /** Attributes that can be used with a ColorFilterImageButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ColorFilterImageButton_filterAlphaVector com.juhe.weather:filterAlphaVector}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorFilterImageButton_filterBlueVector com.juhe.weather:filterBlueVector}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorFilterImageButton_filterBrightnessVector com.juhe.weather:filterBrightnessVector}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorFilterImageButton_filterGreenVector com.juhe.weather:filterGreenVector}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorFilterImageButton_filterRedVector com.juhe.weather:filterRedVector}</code></td><td></td></tr>
+           </table>
+           @see #ColorFilterImageButton_filterAlphaVector
+           @see #ColorFilterImageButton_filterBlueVector
+           @see #ColorFilterImageButton_filterBrightnessVector
+           @see #ColorFilterImageButton_filterGreenVector
+           @see #ColorFilterImageButton_filterRedVector
+         */
+        public static final int[] ColorFilterImageButton = {
+            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
+            0x7f010012
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#filterAlphaVector}
+          attribute's value can be found in the {@link #ColorFilterImageButton} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:filterAlphaVector
+        */
+        public static final int ColorFilterImageButton_filterAlphaVector = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#filterBlueVector}
+          attribute's value can be found in the {@link #ColorFilterImageButton} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:filterBlueVector
+        */
+        public static final int ColorFilterImageButton_filterBlueVector = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#filterBrightnessVector}
+          attribute's value can be found in the {@link #ColorFilterImageButton} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:filterBrightnessVector
+        */
+        public static final int ColorFilterImageButton_filterBrightnessVector = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#filterGreenVector}
+          attribute's value can be found in the {@link #ColorFilterImageButton} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:filterGreenVector
+        */
+        public static final int ColorFilterImageButton_filterGreenVector = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#filterRedVector}
+          attribute's value can be found in the {@link #ColorFilterImageButton} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:filterRedVector
+        */
+        public static final int ColorFilterImageButton_filterRedVector = 0;
         /** Attributes that can be used with a PullToRefresh.
            <p>Includes the following attributes:</p>
            <table>
@@ -349,11 +1068,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #PullToRefresh_ptrShowIndicator
          */
         public static final int[] PullToRefresh = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
-            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
-            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f,
-            0x7f010010
+            0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016,
+            0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a,
+            0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e,
+            0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022,
+            0x7f010023
         };
         /**
           <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#ptrAdapterViewBackground}
@@ -557,5 +1276,214 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name com.juhe.weather:ptrShowIndicator
         */
         public static final int PullToRefresh_ptrShowIndicator = 4;
+        /** Attributes that can be used with a RapidFloatingActionButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RapidFloatingActionButton_rfab_color_normal com.juhe.weather:rfab_color_normal}</code></td><td></td></tr>
+           <tr><td><code>{@link #RapidFloatingActionButton_rfab_color_pressed com.juhe.weather:rfab_color_pressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #RapidFloatingActionButton_rfab_drawable com.juhe.weather:rfab_drawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RapidFloatingActionButton_rfab_identification_code com.juhe.weather:rfab_identification_code}</code></td><td></td></tr>
+           <tr><td><code>{@link #RapidFloatingActionButton_rfab_shadow_color com.juhe.weather:rfab_shadow_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #RapidFloatingActionButton_rfab_shadow_dx com.juhe.weather:rfab_shadow_dx}</code></td><td></td></tr>
+           <tr><td><code>{@link #RapidFloatingActionButton_rfab_shadow_dy com.juhe.weather:rfab_shadow_dy}</code></td><td></td></tr>
+           <tr><td><code>{@link #RapidFloatingActionButton_rfab_shadow_radius com.juhe.weather:rfab_shadow_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #RapidFloatingActionButton_rfab_size com.juhe.weather:rfab_size}</code></td><td></td></tr>
+           </table>
+           @see #RapidFloatingActionButton_rfab_color_normal
+           @see #RapidFloatingActionButton_rfab_color_pressed
+           @see #RapidFloatingActionButton_rfab_drawable
+           @see #RapidFloatingActionButton_rfab_identification_code
+           @see #RapidFloatingActionButton_rfab_shadow_color
+           @see #RapidFloatingActionButton_rfab_shadow_dx
+           @see #RapidFloatingActionButton_rfab_shadow_dy
+           @see #RapidFloatingActionButton_rfab_shadow_radius
+           @see #RapidFloatingActionButton_rfab_size
+         */
+        public static final int[] RapidFloatingActionButton = {
+            0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027,
+            0x7f010028, 0x7f010029, 0x7f01002a, 0x7f01002b,
+            0x7f01002c
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#rfab_color_normal}
+          attribute's value can be found in the {@link #RapidFloatingActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:rfab_color_normal
+        */
+        public static final int RapidFloatingActionButton_rfab_color_normal = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#rfab_color_pressed}
+          attribute's value can be found in the {@link #RapidFloatingActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:rfab_color_pressed
+        */
+        public static final int RapidFloatingActionButton_rfab_color_pressed = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#rfab_drawable}
+          attribute's value can be found in the {@link #RapidFloatingActionButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.juhe.weather:rfab_drawable
+        */
+        public static final int RapidFloatingActionButton_rfab_drawable = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#rfab_identification_code}
+          attribute's value can be found in the {@link #RapidFloatingActionButton} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:rfab_identification_code
+        */
+        public static final int RapidFloatingActionButton_rfab_identification_code = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#rfab_shadow_color}
+          attribute's value can be found in the {@link #RapidFloatingActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:rfab_shadow_color
+        */
+        public static final int RapidFloatingActionButton_rfab_shadow_color = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#rfab_shadow_dx}
+          attribute's value can be found in the {@link #RapidFloatingActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:rfab_shadow_dx
+        */
+        public static final int RapidFloatingActionButton_rfab_shadow_dx = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#rfab_shadow_dy}
+          attribute's value can be found in the {@link #RapidFloatingActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:rfab_shadow_dy
+        */
+        public static final int RapidFloatingActionButton_rfab_shadow_dy = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#rfab_shadow_radius}
+          attribute's value can be found in the {@link #RapidFloatingActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:rfab_shadow_radius
+        */
+        public static final int RapidFloatingActionButton_rfab_shadow_radius = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#rfab_size}
+          attribute's value can be found in the {@link #RapidFloatingActionButton} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>mini</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.juhe.weather:rfab_size
+        */
+        public static final int RapidFloatingActionButton_rfab_size = 0;
+        /** Attributes that can be used with a RapidFloatingActionLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RapidFloatingActionLayout_rfal_frame_alpha com.juhe.weather:rfal_frame_alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #RapidFloatingActionLayout_rfal_frame_color com.juhe.weather:rfal_frame_color}</code></td><td></td></tr>
+           </table>
+           @see #RapidFloatingActionLayout_rfal_frame_alpha
+           @see #RapidFloatingActionLayout_rfal_frame_color
+         */
+        public static final int[] RapidFloatingActionLayout = {
+            0x7f01002d, 0x7f01002e
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#rfal_frame_alpha}
+          attribute's value can be found in the {@link #RapidFloatingActionLayout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:rfal_frame_alpha
+        */
+        public static final int RapidFloatingActionLayout_rfal_frame_alpha = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.juhe.weather.R.attr#rfal_frame_color}
+          attribute's value can be found in the {@link #RapidFloatingActionLayout} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.juhe.weather:rfal_frame_color
+        */
+        public static final int RapidFloatingActionLayout_rfal_frame_color = 0;
     };
 }

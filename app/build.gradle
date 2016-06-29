@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 21
     buildToolsVersion "23.0.3"
     defaultConfig {
         applicationId "com.juhe.weather"
-        minSdkVersion 9
-        targetSdkVersion 19
+        minSdkVersion 21
+        targetSdkVersion 21
     }
     buildTypes {
         release {
@@ -19,6 +19,10 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:19.1.0'
     compile files('libs/juhe_sdk_v_1_2.jar')
+    compile 'com.github.wangjiegulu:AndroidBucket:1.0.4'
+    compile 'com.github.wangjiegulu:ShadowViewHelper:1.0.2'
+    compile 'com.github.wangjiegulu:RapidFloatingActionButton:1.0.3'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'org.greenrobot:eventbus:3.0.0'
 }

@@ -58,7 +58,7 @@ public class WeatherService extends Service {
 	public void onCreate() {
 		// TODO Auto-generated method stub
 		super.onCreate();
-		city = "北京";
+		city = "杭州";
 		mHandler.sendEmptyMessage(REPEAT_MSG);
 	}
 
@@ -325,5 +325,7 @@ public class WeatherService extends Service {
 		}
 
 	}
+
+
 
 }

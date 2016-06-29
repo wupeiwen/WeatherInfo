@@ -16,17 +16,23 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.juhe.weather.bean.FutureWeatherBean;
 import com.juhe.weather.bean.HoursWeatherBean;
 import com.juhe.weather.bean.PMBean;
 import com.juhe.weather.bean.WeatherBean;
+import com.juhe.weather.service.MessageEvent;
 import com.juhe.weather.service.WeatherService;
 import com.juhe.weather.service.WeatherService.OnParserCallBack;
 import com.juhe.weather.service.WeatherService.WeatherServiceBinder;
 import com.juhe.weather.swiperefresh.PullToRefreshBase;
 import com.juhe.weather.swiperefresh.PullToRefreshBase.OnRefreshListener;
 import com.juhe.weather.swiperefresh.PullToRefreshScrollView;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 public class WeatherActivity extends Activity {
 
@@ -64,6 +70,7 @@ public class WeatherActivity extends Activity {
             tv_fourthday,// 第四天
             tv_fourthday_temp_a,// 第四天温度a
             tv_fourthday_temp_b,// 第四天温度b
+            tv_felt_air_temp,// 体感温度
             tv_humidity,// 湿度
             tv_wind, tv_uv_index,// 紫外线指数
             tv_dressing_index;// 穿衣指数
@@ -86,10 +93,22 @@ public class WeatherActivity extends Activity {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
+        EventBus.getDefault().register(this);
         mContext = this;
         init();
         initService();
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+//        Intent i = getIntent();
+//        if (i.getStringExtra("city") != null) {
+////            initService();
+//            mService.getCityWeather(i.getStringExtra("city"));
+////            Toast.makeText(this, "点击了" + i.getStringExtra("city"), Toast.LENGTH_LONG).show();
+//        }
     }
 
     private void initService() {
@@ -175,6 +194,7 @@ public class WeatherActivity extends Activity {
         tv_dressing_index.setText(bean.getDressing_index());
         tv_uv_index.setText(bean.getUv_index());
         tv_wind.setText(bean.getWind());
+        tv_felt_air_temp.setText(bean.getFelt_temp());
 
     }
 
@@ -220,9 +240,9 @@ public class WeatherActivity extends Activity {
             public void onRefresh(PullToRefreshBase<ScrollView> refreshView) {
                 // TODO Auto-generated method stub
                 mService.getCityWeather();
-                
+
             }
-            
+
         });
 
         mScrollView = mPullToRefreshScrollView.getRefreshableView();
@@ -266,6 +286,7 @@ public class WeatherActivity extends Activity {
         tv_fourthday = (TextView) findViewById(R.id.tv_fourthday);
         tv_fourthday_temp_a = (TextView) findViewById(R.id.tv_fourthday_temp_a);
         tv_fourthday_temp_b = (TextView) findViewById(R.id.tv_fourthday_temp_b);
+        tv_felt_air_temp = (TextView) findViewById(R.id.tv_felt_air_temp);
         tv_humidity = (TextView) findViewById(R.id.tv_humidity);
         tv_wind = (TextView) findViewById(R.id.tv_wind);
         tv_uv_index = (TextView) findViewById(R.id.tv_uv_index);
@@ -300,6 +321,11 @@ public class WeatherActivity extends Activity {
 
         unbindService(conn);
         super.onDestroy();
+        EventBus.getDefault().unregister(this);//反注册
     }
 
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEventMainThread(MessageEvent event) {
+        mService.getCityWeather(event.getAddress());
+    }
 }

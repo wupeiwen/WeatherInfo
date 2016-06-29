@@ -1,18 +1,62 @@
 [
     {
-        "merged": "E:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
-        "source": "E:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ab_drop_menu.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\exploded-aar\\com.github.wangjiegulu\\AndroidBucket\\1.0.4\\res\\layout\\ab_drop_menu.xml"
     },
     {
-        "merged": "E:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_city_list.xml",
-        "source": "E:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\item_city_list.xml"
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ab_sheet.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\exploded-aar\\com.github.wangjiegulu\\AndroidBucket\\1.0.4\\res\\layout\\ab_sheet.xml"
     },
     {
-        "merged": "E:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_city.xml",
-        "source": "E:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\activity_city.xml"
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\activity_search.xml"
     },
     {
-        "merged": "E:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_weather.xml",
-        "source": "E:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\activity_weather.xml"
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ab_horizontial_edit_menu.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\exploded-aar\\com.github.wangjiegulu\\AndroidBucket\\1.0.4\\res\\layout\\ab_horizontial_edit_menu.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_weather.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\activity_weather.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_fragment.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\search_fragment.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\citylist_search.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\citylist_search.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_city_list.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\item_city_list.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rfab__content_text.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\exploded-aar\\com.github.wangjiegulu\\RapidFloatingActionButton\\1.0.3\\res\\layout\\rfab__content_text.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ab_sheet_item.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\exploded-aar\\com.github.wangjiegulu\\AndroidBucket\\1.0.4\\res\\layout\\ab_sheet_item.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ab_drop_menu_item.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\exploded-aar\\com.github.wangjiegulu\\AndroidBucket\\1.0.4\\res\\layout\\ab_drop_menu_item.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_author.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\about_author.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rfab__content_label_list_item.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\exploded-aar\\com.github.wangjiegulu\\RapidFloatingActionButton\\1.0.3\\res\\layout\\rfab__content_label_list_item.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_city.xml",
+        "source": "F:\\StudioProjects\\Weather\\app\\src\\main\\res\\layout\\activity_city.xml"
     }
 ]

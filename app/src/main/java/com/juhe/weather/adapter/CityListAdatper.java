@@ -1,5 +1,6 @@
 package com.juhe.weather.adapter;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.juhe.weather.R;
@@ -14,11 +15,11 @@ import android.widget.TextView;
 public class CityListAdatper extends BaseAdapter{
 	
 	
-	private List<String> list;
+	private ArrayList<String> list;
 	private LayoutInflater mInflater;
 	
 	
-	public CityListAdatper(Context context,List<String> list) {
+	public CityListAdatper(Context context,ArrayList<String> list) {
 		// TODO Auto-generated constructor stub
 		this.list = list;
 		mInflater = LayoutInflater.from(context);
